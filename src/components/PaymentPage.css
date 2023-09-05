@@ -1,0 +1,84 @@
+/* src/components/PaymentPage.css */
+
+/* Styles for the payment page container */
+.payment-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the title */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the payment methods container */
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for individual payment method options */
+  .payment-method {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Styles for radio buttons */
+  input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #007bff;
+  }
+  
+  /* Styles for payment method labels */
+  label {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Styles for the submit button */
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .payment-methods {
+      max-width: 80%;
+    }
+  }
+  
